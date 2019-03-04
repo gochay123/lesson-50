@@ -1,0 +1,326 @@
+body, html{
+	width: 100%
+	height:100%
+}
+
+.container{
+
+	width: 1500px;
+	margin:0 auto;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation-ul{
+	display: flex;
+
+}
+.navigation-li{
+	margin-right: 30px;
+
+}
+.navigation-li:last-child{
+	margin-right: 0;
+}
+.social-ul{
+	display: flex;
+}
+.social{
+	height: 20px;
+}
+.social-li:after{
+content: '';
+height: 20px;
+width: 2px;
+background-color: #3D58A6;
+display: inline-block;
+margin: 0 15px;
+}
+.social-li:last-child:after{
+	display: none;
+}
+.logo{
+	width: 100px;
+	margin-left: 98px;
+}
+.about{
+width: 1420px;
+background-color: red;
+display: block;
+height: 89px;
+color: white;
+padding-left: 98px;
+font-size: 22px;
+margin-top: 15px;
+padding-top: 20px;
+}
+.surati{
+	display: flex;
+	justify-content: space-between;
+}
+.mizani{
+	margin-left: 97px;
+	margin-top: 109px;
+}
+.komp{
+	margin-top: 59px;
+	margin-right: 84px;
+	margin-left: 40px;
+}
+.raketa{
+	margin-top: 109px;
+	margin-right: 100px;
+}
+.container2{
+	width:1170px
+	height: 567px;
+	position: relative;
+}
+.mission{
+	color: red;
+	position: absolute;
+	top:475px;
+	left: 98px;
+}
+.vision{
+	color: red;
+	position: absolute;
+	top:475px;
+	left: 544px;
+
+}
+.pilo{
+	color: red;
+	position: absolute;
+	top: 475px;
+	right: 292px
+}
+.p1{
+	position: absolute;
+	top: 496px;
+	left: 98px;
+
+}
+.p2{
+	position: absolute;
+	top: 496px;
+	left: 544px;
+}
+.p3{
+	position: absolute;
+	top: 496px;
+	right: 232px;
+}
+.clear{
+	width: 1519px;
+	background-color: red;
+	height: 1px;
+	margin-top: 90px;
+}
+.container5{
+	width: 1170px;
+	position: relative;
+
+}
+.TEAM{
+     color: red;
+	margin-top: 20px;
+	margin-left: 99px;
+}
+.mastebi{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 98px;
+	padding-top: 30px;
+}
+.aqua{
+	margin-top: 40px;
+	width: 1519px;
+	height: 89px;
+	background-color: #BDCCD4;
+	position: relative;
+}
+.go{
+	position: absolute;
+	left: 98px;
+	top: 34px;
+	color: white;
+	text-decoration: underline;
+}
+.yvela{
+	position: absolute;
+	right: 98px;
+	top:34px;
+}
+.grey-bg{
+	background-color: #E6E6E6;
+	padding: 35px 0 30px 0;
+}
+.container10{
+
+	width: 1170px;
+	margin:0 auto;
+}
+.h4{
+color:#3D58A6;
+margin-bottom:20px;
+}
+
+.read1{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 5px 15px 0;
+
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shvili{
+	background-color: #F2F2F2;
+	margin: 30px;
+}
+.shvilishvili{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.titi{
+	padding-right: 20px;
+	padding-left:20px;
+	padding-top:20px;
+}
+.mob{
+	padding-right: 20px;
+	padding-left:20px;
+	padding-top:20px;
+}
+.mshobeli{
+	width: 1000px;
+
+}
+.h2{
+	color: blue
+}
+.h7{
+	color: blue;
+}
+@media (max-width: 1170px) {
+	.container{
+	width: 970px;
+	
+	
+
+}
+@media (max-width: 970px) {
+	.container{
+	width: 670px;
+	
+	
+
+}
+@media (max-width: 670px) {
+	.container{
+	width: 480px;
+	}
+	.social-ul{
+		display: none;
+
+	}
+		@media (max-width: 480px) {
+	.container{
+	width: 300px;
+	}
+	.social-ul{
+		display: none;
+
+	}
+		@media (max-width: 300px) {
+	.container{
+	width: 200px;
+	}
+	.social-ul{
+		display: none;
+
+	}
+	
+	@media (max-width: 200px) {
+	.container{
+	width: 150px;
+	}
+	.social-ul{
+		display: none;
+
+	}
+	
+
+}
+
+@media (max-width: 1500px) {
+.about{
+width: 1205px;
+background-color: red;
+display: block;
+height: 89px;
+color: white;
+padding-left: 98px;
+font-size: 22px;
+margin-top: 15px;
+padding-top: 20px;
+}
+@media (max-width: 1205px) {
+.about{
+width: 900px;
+background-color: red;
+display: block;
+height: 89px;
+color: white;
+padding-left: 98px;
+font-size: 22px;
+margin-top: 15px;
+padding-top: 20px;
+}
+@media (max-width: 900px) {
+.about{
+width: 500px;
+background-color: red;
+display: block;
+height: 89px;
+color: white;
+padding-left: 98px;
+font-size: 22px;
+margin-top: 15px;
+padding-top: 20px;
+}
+@media (max-width: 500px) {
+.about{
+width: 3000px;
+background-color: red;
+display: block;
+height: 89px;
+color: white;
+padding-left: 98px;
+font-size: 22px;
+margin-top: 15px;
+padding-top: 20px;
+}
+
+@media (max-width: 1400px;){
+ .container2{
+ 	width: 1170px;
+
+ }
+	
+
+
+
+
+
+
+
+	
+
